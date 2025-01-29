@@ -5,7 +5,7 @@ data(college)
 devtools::install_github("jhudsl/matahari")
 library(matahari)
 dance_start(value = FALSE, contents = FALSE)
-dance_save("/Users/stephenmalam/Desktop/college_major_analysis.rds")
+
 
 library(dplyr)
 library(ggplot2)
@@ -49,3 +49,5 @@ print(weighted_anova)
 #The p-value (7.133e-05) is significantly less than 0.05 (common alpha level), indicating strong evidence against the null hypothesis.
 #Conclusion: There is a statistically significant association between college major category and median earnings.
 
+##############################
+dance_save("/Users/stephenmalam/Desktop/college_major_analysis.rds")
